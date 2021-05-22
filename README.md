@@ -9,11 +9,11 @@ In my first deliverble, I have created a summary table that shows the total ride
 <br /> 
 My second deliverable is a multiple line chart that shows fares by city time from Jan 2019 to April 2019.  To make this chart, I first created a dataframe grouped by type and date and showed the sum of fares.  After removing the index, I created a pivot table from the this data frame with date as the index, type as the columns, and fares as each value.  From this pivot table, I created a new data frame only using the dates from Jan 1st 2019 to April 29th 2019.  I then set the date indx to the datatime data type and resamples it to only show the week.  Using matplotlin, I created a multi line chart using the following code:<br /> 
 <br /> 
-fare_by_type = jan_apr_resample.plot(figsize=(20,6))
-fare_by_type.set_ylabel("Fare ($USD)")
-fare_by_type.set_title("Total Fare by City Type")
-from matplotlib import style
-style.use('fivethirtyeight')
+fare_by_type = jan_apr_resample.plot(figsize=(20,6))<br /> 
+fare_by_type.set_ylabel("Fare ($USD)")<br /> 
+fare_by_type.set_title("Total Fare by City Type")<br /> 
+from matplotlib import style<br /> 
+style.use('fivethirtyeight')<br /> 
 <br /> 
 The resulting chart is below:
 ![fare_by_type_chall](Analysis/fare_by_type_chall.png)
