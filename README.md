@@ -17,7 +17,12 @@ style.use('fivethirtyeight')<br />
 <br /> 
 The resulting chart is below:
 ![fare_by_type_chall](Analysis/fare_by_type_chall.png)
-
-
+<br /> 
+The chart shows that total urban fares are the highest and rural fares are the lowest across all weeeks from January to April 2019.  The chart complements the summary table, but provides a deeper into into breakdown of total fares by week.
 
 ## Summary
+
+Based  off the results, I can make the following three recommendations:
+1. The most rides are provided in urban type areas.  This is because people are less likely to own cars in these areas and rely on other transportation.  It would be better in invest in drivers in urban areas.
+2. Try to keep prices competitive in urban areas since this is the biggest stream of fare income.
+3. The total amount of drivers in urban areas is more than the total amount of rides given.  This could be costing the company more money since they are paying drivers that aren't giving rides.  It may be helpful to analysis how many drivers are actually needed in urban areas.
